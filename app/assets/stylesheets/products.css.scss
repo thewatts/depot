@@ -6,23 +6,29 @@
 .products {
   table {
     border-collapse: collapse;
+    width: 100%;
   }
 
-  table rd td {
+  table tr td {
     padding: 5px;
     vertical-align: top;
   }
 
+  .list_image_wrap {
+    width: 80px;
+  }
   .list_image {
     width: 60px;
     height: 70px;
+    border: solid 1px #eee;
   }
 
   .list_description {
     width: 60%;
-
+    // padding:
     dl {
       margin: 0;
+      padding: 5px 0;
     }
 
     dt {
@@ -36,17 +42,19 @@
     }
   }
 
-  .list-actions {
-    font-size: x-small;
+  .list_actions {
+    font-size: small;
     text-align: right;
     padding-left: 1em;
+    padding-right: .5em;
+    padding-top: .5em;
   }
 
   .list_line_even {
-    background: #e0f8f8;
+    background: #fefefe;
   }
 
   .list_line_odd {
-    background: #f8b0f8;
+    background: #efefef;
   }
 }
